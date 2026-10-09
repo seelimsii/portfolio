@@ -132,3 +132,8 @@ The DUCAT course is represented as professional training rather than a degree or
 ## Included media and gallery
 
 Your profile photo, United Airlines photos, research/dissertation photos, Blu Parrot and Huntit Out photos are bundled under `public/images/`. The Personal Gallery page and homepage hobby section are included.
+
+
+## GitHub Pages deployment
+
+This project is configured for the repository `seelimsii/portfolio` on GitHub Pages. Keep the contents of this folder at the repository root (so `index.html`, `app.js`, `data.js`, `styles.css`, `404.html`, and `public/` are at the top level). The app uses `/portfolio/` as its deployment base path. In GitHub, select **Settings → Pages → Deploy from a branch → main → /(root)**.
