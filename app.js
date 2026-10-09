@@ -125,7 +125,7 @@ function home() {
             </div>
           </div>
           <div class="hero-photo reveal">
-            <img class="profile-photo" src="/public/images/profile/mehak.jpg" alt="Mehak Aggarwal" loading="eager" />
+            <img class="profile-photo" src="./public/images/profile/mehak.jpg" alt="Mehak Aggarwal" loading="eager" />
           </div>
         </div>
       </div>
@@ -205,7 +205,7 @@ function home() {
         <div class="section-head reveal"><div><div class="section-kicker">07 / Credentials</div><h2>Training & certifications.</h2></div><a class="btn ghost" href="/certifications" data-route>All credentials →</a></div>
         <div class="feature-grid credential-feature-grid">
           <article class="card reveal credential-feature"><div class="credential-brand infosys-brand">i</div><div class="card-body"><div class="card-meta">Workplace training</div><div class="card-title" style="margin-top:8px">Infosys Training</div><p>DevOps, AWS, Aviation Domain and Cyber Security training completed as part of the United Airlines onboarding.</p><a class="card-link" href="/experience/united-airlines" data-route>Related experience →</a></div></article>
-          <article class="card reveal credential-feature"><div class="credential-brand ducat-brand">DUCAT</div><div class="card-body"><div class="card-meta">Professional training · 2023–2024</div><div class="card-title" style="margin-top:8px">Cloud Computing — Full</div><p>Offline course completed at DUCAT School of AI.</p><a class="card-link" href="/public/images/certificates/ducat-cloud-computing-certificate.pdf" target="_blank" rel="noopener noreferrer">Open certificate ↗</a></div></article>
+          <article class="card reveal credential-feature"><div class="credential-brand ducat-brand">DUCAT</div><div class="card-body"><div class="card-meta">Professional training · 2023–2024</div><div class="card-title" style="margin-top:8px">Cloud Computing — Full</div><p>Offline course completed at DUCAT School of AI.</p><a class="card-link" href="./public/images/certificates/ducat-cloud-computing-certificate.pdf" target="_blank" rel="noopener noreferrer">Open certificate ↗</a></div></article>
           <article class="card reveal credential-feature"><div class="credential-brand apexa-brand">Apexa<span>IQ</span></div><div class="card-body"><div class="card-meta">Tool training</div><div class="card-title" style="margin-top:8px">Apexa-IQ</div><p>IT asset management tool exposure during the Blu Parrot internship.</p><a class="card-link" href="/experience/blu-parrot" data-route>Related experience →</a></div></article>
         </div>
       </div>
@@ -321,7 +321,7 @@ function resumePage() {
     <section><div class="container"><div class="panel reveal" style="max-width:760px;margin:auto;text-align:center">
       <div class="section-kicker">Resume PDF</div><h2 style="font-size:2.2rem">Mehak Aggarwal — Resume</h2>
       <p class="section-intro" style="margin:0 auto">Open or save the resume PDF.</p>
-      <div class="ctas" style="justify-content:center"><a class="btn primary" href="/public/images/documents/mehak-aggarwal-resume.pdf" target="_blank" rel="noopener noreferrer">Open Resume ↗</a><a class="btn ghost" href="/public/images/documents/mehak-aggarwal-resume.pdf" download>Download PDF ↓</a></div>
+      <div class="ctas" style="justify-content:center"><a class="btn primary" href="./public/images/documents/mehak-aggarwal-resume.pdf" target="_blank" rel="noopener noreferrer">Open Resume ↗</a><a class="btn ghost" href="./public/images/documents/mehak-aggarwal-resume.pdf" download>Download PDF ↓</a></div>
     </div></div></section>
   `);
 }
@@ -526,7 +526,7 @@ function bind() {
   document.querySelectorAll("[data-certificate]").forEach(btn => {
     btn.addEventListener("click", () => {
       const a = achievements.find(x=>x.id===btn.dataset.certificate);
-      openModal(`<div class="section-kicker">Certificate / Recognition</div><h2 style="font-size:2rem">${esc(a.title)}</h2><p>${esc(a.issuer)} · ${esc(a.date)}</p><img class="credential-thumb" style="height:auto;max-height:70vh;object-fit:contain;margin-top:18px" src="/public/images/certificates/research-display-certificate.jpeg" alt="${esc(a.title)} certificate">`);
+      openModal(`<div class="section-kicker">Certificate / Recognition</div><h2 style="font-size:2rem">${esc(a.title)}</h2><p>${esc(a.issuer)} · ${esc(a.date)}</p><img class="credential-thumb" style="height:auto;max-height:70vh;object-fit:contain;margin-top:18px" src="./public/images/certificates/research-display-certificate.jpeg" alt="${esc(a.title)} certificate">`);
     });
   });
 
